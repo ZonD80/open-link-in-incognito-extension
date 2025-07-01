@@ -1,12 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Open Link in Incognito",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Open links in incognito mode when clicking with Command+Shift (or Ctrl+Shift on Windows/Linux)",
     "permissions": [
-        "activeTab",
-        "scripting",
-        "tabs"
+        "activeTab"
     ],
     "content_scripts": [
         {
